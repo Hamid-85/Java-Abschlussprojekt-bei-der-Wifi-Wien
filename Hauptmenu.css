@@ -1,0 +1,45 @@
+.root{
+	-fx-background-image:url("park2.png");
+	-fx-background-repeat: no-repeat;
+	  -fx-background-position: center center;
+	  -fx-background-color:#ffe6d4;
+}
+.button{
+     -fx-font-weight: bold;
+      -fx-font-family: 'JetBrains Mono';
+     -fx-pref-width:150px;
+     -fx-font-size:10pt;
+     -fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-color: #f5c987;
+}
+.fancy-button{
+     -fx-background-color: #f5c987;
+     -fx-text-fill: black;
+}
+.fancy-button:hover{
+     -fx-background-color: #e36409;
+     -fx-text-fill: black;
+}
+.accordion .titled-pane .title{
+	 -fx-background-color: #ebac4d;
+    -fx-border-color: #080202;
+}
+
+.accordion .titled-pane>.title>.arrow-button>.arrow{
+	 -fx-background-color: #ed2b15;
+	 -fx-border-color: #080202;
+}
+.fancy-accordion .titled-pane .title{
+      -fx-background-color: #ebac4d;
+    -fx-border-color: #080202;
+}
+
+.fancy-accordion .titled-pane .title:hover{
+     -fx-background-color: #e36409;
+     -fx-text-fill: red;
+     -fx-font-size:  12pt;
+	-fx-text-fill:  #242b2b;
+	-fx-font-family: 'JetBrains Mono';
+	-fx-font-weight: bold;
+}

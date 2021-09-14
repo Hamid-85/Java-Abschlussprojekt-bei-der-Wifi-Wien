@@ -1,0 +1,37 @@
+.root{
+	-fx-background-image:url("park2.png");
+	-fx-background-color:#ffe6d4;
+	-fx-background-repeat: no-repeat;
+	  -fx-background-position: bottom;
+}
+.button{
+     -fx-font-weight: bold;
+      -fx-font-family: 'JetBrains Mono';
+     -fx-pref-width:185px;
+     -fx-font-size:10pt;
+     -fx-border-radius: 20px;
+	-fx-background-radius: 20px;
+	-fx-border-color: #f5c987;
+}
+.fancy-button{
+     -fx-background-color: #f5c987;
+     -fx-text-fill: black;
+}
+.fancy-button:hover{
+     -fx-background-color: #e36409;
+     -fx-text-fill: black;
+}
+
+.warenkorb-button{
+    -fx-text-alignment: center;
+        -fx-pref-width:185px;
+    -fx-background-repeat: no-repeat;
+	  -fx-background-position: left;
+}
+.back-button{
+   -fx-background-image:url("back.png");
+   -fx-text-alignment: right;
+       -fx-pref-width:185px;
+	-fx-background-repeat: no-repeat;
+	  -fx-background-position: left;
+}
